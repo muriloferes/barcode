@@ -1,0 +1,15 @@
+2015-03-13 09:17:21.970 BarCod[1518:62736] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/muriloferes/Library/Developer/CoreSimulator/Devices/9FAE06F4-B1B1-41F7-9FBE-A94C5C8383FE/data/Containers/Data/Application/7D65F893-4CD7-4907-B368-7A8FE8DADD55/Library/Cookies/Cookies.binarycookies
+2015-03-13 09:17:22.381 BarCod[1518:62736] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-13 09:17:22.381 BarCod[1518:62736] Multi-tasking -> Device: YES, App: YES
+2015-03-13 09:17:22.409 BarCod[1518:62736] Unlimited access to network resources
+2015-03-13 09:17:22.424 BarCod[1518:62736] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 09:17:23.615 BarCod[1518:62736] Resetting plugins due to page load.
+2015-03-13 09:17:23.767 BarCod[1518:62736] Finished load of: file:///Users/muriloferes/Library/Developer/CoreSimulator/Devices/9FAE06F4-B1B1-41F7-9FBE-A94C5C8383FE/data/Containers/Bundle/Application/2C3CB9BF-02AC-4836-A42F-6DA86B0122AC/BarCod.app/www/index.html
+2015-03-13 09:21:18.830 BarCod[1518:65535] Terminating since there is no system app.

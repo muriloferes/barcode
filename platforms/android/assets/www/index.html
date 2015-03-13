@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Leitor de Barcod</title>
+    </head>
+    <body>
+        
+        <div class="app">
+            <h1>Bar Code App</h1>
+            <button onclick="leitor()">ABRIR LEITOR</button>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            function leitor() {
+
+                  cordova.plugins.barcodeScanner.scan(
+                      function (result) {
+                          alert("Leitura: " + result.text + "\n" +
+                                "Formato: " + result.format + "\n");
+                      }, 
+                      function (error) {
+                          alert("Falha ao Scannear: " + error);
+                      }
+                   );
+            }
+        </script>
+    </body>
+</html>
